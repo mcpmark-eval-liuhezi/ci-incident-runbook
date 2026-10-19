@@ -1,0 +1,15 @@
+name: CI Incident Drill
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  drill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Simulate a runaway CI job
+        run: |
+          echo "Drill start: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          sleep 300
+          echo "Drill end: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
