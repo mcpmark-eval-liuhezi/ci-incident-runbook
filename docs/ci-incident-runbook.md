@@ -35,3 +35,9 @@ consuming runner minutes or otherwise misbehaving, and then purging its logs.
   - `github/docs` — `data/reusables/actions/github-token-scope-descriptions.md`
   - `github/copilot-sdk` — `nodejs/src/workflow.ts`
   - `github/gh-aw` — `pkg/workflow/concurrency_test.go`
+
+## Drill log
+
+- **Run id:** 39260080838
+- **Status reported after the run was stopped:** completed (conclusion: cancelled)
+- **Sleep duration used by the workflow:** 300 seconds (5 minutes)
